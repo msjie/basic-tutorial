@@ -9,6 +9,8 @@
 
 rootProject.name = "basic-tutorial"
 
+include("design-patterns")
+
 pluginManagement {
     repositories {
         maven(url = "https://maven.aliyun.com/repository/gradle-plugin")
