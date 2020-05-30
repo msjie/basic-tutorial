@@ -8,5 +8,9 @@ public abstract class Dialog {
         button.render();
     }
 
+    /**
+     * factory method
+     * @return {@link Button}
+     */
     public abstract Button createButton();
 }
