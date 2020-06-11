@@ -1,4 +1,9 @@
 package cn.yusite.basic.tutorial.design.behavioral.iterator;
 
-public class ProfileIterator {
+public interface ProfileIterator {
+    boolean hasNext();
+
+    Profile getNext();
+
+    void reset();
 }
